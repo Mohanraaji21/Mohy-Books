@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Light&family=Monoton&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&family=Love+Light&family=Monoton&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Life+Savers:wght@400;700;800&family=Love+Light&family=Monoton&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Life+Savers:wght@400;700;800&family=Love+Light&family=Monoton&family=Press+Start+2P&family=Sedgwick+Ave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Life+Savers:wght@400;700;800&family=Love+Light&family=Monoton&family=Press+Start+2P&family=Protest+Revolution&family=Sedgwick+Ave&display=swap');
+
+body{
+    margin: auto;
+    background: linear-gradient(to right, rgb(160, 211, 232), rgb(255, 224, 178));
+}
+
+
+nav img{
+    height: 10%;
+    width: 10%;
+}
+
+#profile{
+    height: 10%;
+    width: 10%;
+    cursor: pointer;
+}
+
+nav li{
+    padding-left: 5%;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 35px;
+   /* font-family: "Press Start 2P", system-ui;*/
+   font-family: "Monoton", sans-serif;
+
+}
+
+#action{
+    position: absolute;
+    top: 20%;
+}
+
+#adventure{
+    position: relative;
+    margin-top: 120%;
+}
+
+#poetry
+{
+    position: relative;
+    margin-top: 5%;
+}
+
+#life{
+    position: relative;
+    margin-top: 5%;
+}
+
+#love{
+    position: relative;
+    margin-top: 5%;
+
+}
+
+
+
+/*#action img{
+    height: 250px;
+    width: 210px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+}*/
+
+.card img{
+    height: 350px;
+}
+
+#cont h1{
+    font-size: 75px;
+    font-family: "Playwrite AU VIC", cursive;
+    font-weight: 800;
+    padding-left: 10%;
+    color:rgb(44, 62, 80)
+}
+
+.card {
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 2px 10px rgba(1.9, 0.5, 0.5, 1.9); 
+    transition: transform 0.2s;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+  }
+
+#love h1{
+    font-family: "Love Light", cursive;
+    letter-spacing: 15px;
+    font-weight: 400;
+}
+
+#life h1{
+    font-family: "Life Savers", serif;
+
+}
+
+#poetry h1{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+
+}
+
+#adventure h1{
+    font-family: "Sedgwick Ave", cursive;
+    font-weight: 400;
+}
+
+#action h1{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+}
